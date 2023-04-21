@@ -4,7 +4,7 @@ description: "Remove an appManagementPolicy from an application or service princ
 ms.localizationpriority: medium
 author: "madansr7"
 ms.prod: "identity-and-sign-in"
-doc_type: "apiPageType"
+doc_type: "apiPageType" 
 ---
 
 # Remove appliesTo
@@ -61,7 +61,7 @@ The following is an example of the request to remove an appManagementPolicy from
 }-->
 
 ```http
-DELETE https://graph.microsoft.com/v1.0/applications/{id}/appManagementPolicies/$ref
+DELETE https://graph.microsoft.com/v1.0/applications/{id}/appManagementPolicies/{App Management Policy ID}/$ref
 Content-type: application/json
 
 {
@@ -117,7 +117,7 @@ The following is an example of the request to remove an appManagementPolicy from
 }-->
 
 ``` http
-DELETE https://graph.microsoft.com/v1.0/servicePrincipals/{id}/appManagementPolicies/$ref
+DELETE https://graph.microsoft.com/v1.0/servicePrincipals/{id}/appManagementPolicies/{App Management Policy ID}/$ref
 
 {
  "@odata.id":"https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{id}"
