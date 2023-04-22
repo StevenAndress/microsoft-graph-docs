@@ -117,7 +117,7 @@ The following is an example of the request to remove an appManagementPolicy from
 }-->
 
 ``` http
-DELETE https://graph.microsoft.com/v1.0/servicePrincipals/{id}/appManagementPolicies/{App Management Policy ID}/$ref
+DELETE https://graph.microsoft.com/v1.0/servicePrincipals/{id}/appManagementPolicies/{AppManagementPolicyId}/$ref
 
 {
  "@odata.id":"https://graph.microsoft.com/v1.0/policies/appManagementPolicies/{id}"
