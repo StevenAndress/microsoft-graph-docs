@@ -61,7 +61,7 @@ The following is an example of the request to remove an appManagementPolicy from
 }-->
 
 ```http
-DELETE https://graph.microsoft.com/v1.0/applications/{id}/appManagementPolicies/{App Management Policy ID}/$ref
+DELETE https://graph.microsoft.com/v1.0/applications/{id}/appManagementPolicies/{AppManagementPolicyId}/$ref
 Content-type: application/json
 
 {
